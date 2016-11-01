@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "removeComments": false,
+        "outDir": "./output"
+        //"outFile": "./output/app.js"
+    },
+    "exclude": [
+        "node_modules",
+        "typings/main.d.ts",
+        "typings/main"
+    ]
+}

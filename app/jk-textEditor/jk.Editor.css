@@ -1,0 +1,74 @@
+
+.jk {
+
+}
+	.debug {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: lightgray;
+		color: darkblue;
+	}
+	.jk.cursor {
+		width: 2px;
+		background-color: yellow;
+		position: absolute;
+	}
+	.jk.editor-area {
+		background-color: #1e1e1e;
+		/*background-color: blue;*/
+		color:#BDB9BC;
+		height: 100%;
+		width: 100%;
+		line-height: 20px;
+		font-size: 14px;
+		font-family: Consolas, 'Courier New', monospace;
+	}
+	.jk.text-area {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.jk.content-area {
+		position: absolute;
+		left: 60px;
+		width: calc(100% - 60px);
+	}
+	.jk.margin-area {
+		position: absolute;
+		width: 50px;
+	}
+	.jk.line {
+		position: absolute;
+		/* keep white spaces and tabs*/ 
+		white-space: pre;
+		tab-size: 4;
+		width: 100%;
+	}
+	.jk.line-span {
+		color: blue;
+	}
+	.jk.margin {
+		position: absolute;
+		text-align: right;
+		width: calc(100% - 5px);
+	}
+	.jk.margin .line-no {
+		color: #2b91af;
+	}	
+	.jk.line .linetext {
+		color: #eaeaea;
+	}	
+	.jk.line .whitespace {
+		color: #2e5629;
+	}	
+	.jk.line .keyword {
+		color: #348cd6;
+	}	
+	.jk.line .comment {
+		color: green;
+	}	
+	.jk.line .blue {
+		color: blue;
+	}
